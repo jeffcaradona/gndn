@@ -1,0 +1,17 @@
+{
+  "name": "@jeffcaradona/gndn",
+  "version": "0.0.0",
+  "description": "Goes Nowhere Does Nothing (usefull) A JavaScript Module",
+  "main": "./dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "esbuild": "^0.19.3",
+    "jest": "^29.7.0",
+    "jest-cli": "^29.7.0"
+  }
+}
