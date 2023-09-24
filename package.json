@@ -1,10 +1,10 @@
 {
   "name": "@jeffcaradona/gndn",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "Goes Nowhere Does Nothing (usefull) A JavaScript Module",
   "main": "./dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {    
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
   },
   "keywords": [],
   "author": "",
