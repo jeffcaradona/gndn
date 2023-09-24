@@ -4,7 +4,8 @@
   "description": "Goes Nowhere Does Nothing (usefull) A JavaScript Module",
   "main": "./dist/index.js",
   "scripts": {    
-    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js"
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "build": "esbuild ./src/index.js --bundle --outfile=./dist/index.js --platform=node --target=node18.17 --minify"
   },
   "keywords": [],
   "author": "",
