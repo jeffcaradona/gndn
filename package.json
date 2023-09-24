@@ -1,14 +1,20 @@
 {
   "name": "@jeffcaradona/gndn",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Goes Nowhere Does Nothing (usefull) A JavaScript Module",
   "main": "./dist/index.js",
-  "scripts": {    
+  "scripts": {
     "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
     "build": "esbuild ./src/index.js --bundle --outfile=./dist/index.js --platform=node --target=node18.17 --minify"
   },
+  "repository": "github:jeffcaradona/gndn",
+  "homepage": "https://github.com/jeffcaradona/gndn#readme",
   "keywords": [],
-  "author": "",
+  "author": "Jeff Caradona <jeffcaradona@gmail.com>",
+  "contributors": [],
+  "maintainers": [
+    "Jeff Caradona <jeffcaradona@gmail.com>"
+  ],
   "license": "ISC",
   "devDependencies": {
     "esbuild": "^0.19.3",
@@ -16,3 +22,5 @@
     "jest-cli": "^29.7.0"
   }
 }
+
+
