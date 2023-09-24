@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "description": "Goes Nowhere Does Nothing (usefull) A JavaScript Module",
   "main": "./dist/index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "scripts": {    
+    "test": "node --experimental-vm-modules node_modules/jest/bin/jest.js",
+    "build": "esbuild ./src/index.js --bundle --outfile=./dist/index.js --platform=node --target=node18.17 --minify"
   },
   "keywords": [],
   "author": "",

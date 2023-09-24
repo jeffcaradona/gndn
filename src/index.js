@@ -1,4 +1,15 @@
-exports./* The `printMsg` function is logging a message to the console. */
-printMsg = function() {
-    console.log("This is a message from the demo package");
+let params = {};
+
+module.exports.getParams = () => params;
+module.exports.setParams = (newParams) => {
+  try {
+    Object.assign(params, newParams);
+  } catch (e) {
+    console.error(e);
+    throw new Error(e);
   }
+};
+
+module.exports.init = (newParams) => {
+  this.setParams(newParams);
+};
