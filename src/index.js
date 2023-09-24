@@ -1,11 +1,15 @@
 let params = {};
-exports.init = (newParams) => {
-  try{  
+
+module.exports.getParams = () => params;
+module.exports.setParams = (newParams) => {
+  try {
     Object.assign(params, newParams);
-  }
-  catch(e){
+  } catch (e) {
     console.error(e);
     throw new Error(e);
-  }  
+  }
 };
-exports.getParams = () => params;
+
+module.exports.init = (newParams) => {
+  this.setParams(newParams);
+};
