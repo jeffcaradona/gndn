@@ -14,7 +14,3 @@ v0.0.1
 : Makes sure everything works
 - A build script!
 : To create a minified version for deployments
-
-
-
-
