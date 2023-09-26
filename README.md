@@ -5,7 +5,7 @@ Goes Nowhere Does Nothing (usefull) A JavaScript Module
 v0.0.2
 : Refactored!
 - Still WIP!
-- Refactored the main module object to only expost a single object instead of multiple functions
+- Refactored the main module object to only expose a single object instead of multiple functions
 - Updated stuff in package.json
 - Removed index.js from ./dist until ready top deploy
 - Reversed the version numbers in the README.md
