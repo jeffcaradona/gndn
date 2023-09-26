@@ -1,5 +1,7 @@
+import gndn from './index.js';
+import {jest} from '@jest/globals';
+
 describe("index.js with Default properties", () => {
-  const gndn = require("./index.js");
   test("", () => {
     expect(gndn).toBeDefined();
   });
@@ -15,7 +17,7 @@ describe("index.js with Default properties", () => {
 });
 
 describe("index.js with defined properties", () => {
-  const gndn = require("./index.js");
+  
   test("gndn.init()", () => {
     const init = jest.fn(() => {
       gndn.init({ value: 1 });
@@ -28,4 +30,6 @@ describe("index.js with defined properties", () => {
     gndn.init({ value: 1 });
     expect(gndn.getParams()).toEqual({ value: 1 });
   });
+
+
 });

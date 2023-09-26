@@ -1,8 +1,14 @@
 # gndn
+
 Goes Nowhere Does Nothing (usefull) A JavaScript Module
 
 ## Version History
-v0.0.2
+
+v0.1.0 - ES6 is here!
+: Refactored!
+- Still WIP!
+
+v0.0.2 - ES5 ends here
 : Refactored!
 - Still WIP!
 - Refactored the main module object to only expose a single object instead of multiple functions

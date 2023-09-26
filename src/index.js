@@ -6,7 +6,7 @@ let params = {};
 
 /* The code is defining an object named `GNDN` with three methods: `setParams`, `getParams`, and
 `init`. */
-let GNDN = {
+const GNDN = {
   /** The `setParams` method is used to update the `params` object with new values. It takes an
    *   `newParams` object as a parameter and uses `Object.assign()` to merge the properties of
    *   `newParams` into the `params` object. If an error occurs during the assignment, it will be caught,
@@ -65,8 +65,10 @@ let GNDN = {
    */
   init: function (initialParams) {
     this.setParams(initialParams);
-  },
+  }
+  
 };
 
 
-module.exports = GNDN;
+
+export default GNDN;
