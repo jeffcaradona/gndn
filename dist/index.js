@@ -1,0 +1,1 @@
+var a={},n={setParams:function(s){try{Object.assign(a,s)}catch(e){throw console.error(e),new Error(e)}},getParams:()=>a,writeResonseLocals:(s,e,r)=>{try{e.locals.gndn=exports.getParams()}catch(t){console.error(t),e.locals.gndn={}}finally{r()}},sendResponseJSON:(s,e)=>{e.JSON(exports.getParams())},init:function(s){this.setParams(s)}};module.exports=n;
